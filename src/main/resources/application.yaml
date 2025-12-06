@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: uber
+
+jwt:
+  secret: mysecretkeymysecretkeymysecretkey
+  expiration: 86400000
+
+  data:
+    mongodb:
+      host: localhost
